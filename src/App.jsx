@@ -11,7 +11,7 @@ function App() {
   }
   return (
     <main className="w-full h-screen">
-      <div className="w-full h-1/4 overflow-hidden fixed top-0 left-0 lg:w-1/3 lg:h-screen lg:max-h-full bg-red-300">
+      <div className="w-full h-1/4 overflow-hidden fixed top-0 left-0 lg:w-1/3 lg:h-screen lg:max-h-full">
         <img
           src="bg-main-mobile.png"
           alt="background"
