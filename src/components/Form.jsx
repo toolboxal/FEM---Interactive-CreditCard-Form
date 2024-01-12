@@ -81,7 +81,7 @@ const Form = ({ handleInfo }) => {
               <p className="text-xs text-red-500">{errors.number?.message}</p>
             </div>
           </div>
-          <div className="flex items-end gap-2">
+          <div className="flex items-end gap-2 mb-4">
             {/* ----------INPUT MONTH--------- */}
             <div className="flex items-end gap-2 basis-1/2">
               <div className="w-full basis-1/2">
@@ -132,7 +132,7 @@ const Form = ({ handleInfo }) => {
                       required: "Can't be blank",
                       pattern: {
                         value: /[0-9]{2}/,
-                        message: 'Wrong format, numbers only',
+                        message: 'Wrong format',
                       },
                     })}
                   />
@@ -161,7 +161,7 @@ const Form = ({ handleInfo }) => {
                     required: "Can't be blank",
                     pattern: {
                       value: /[0-9]{3}/,
-                      message: 'Wrong format, numbers only',
+                      message: 'Wrong format',
                     },
                   })}
                 />
